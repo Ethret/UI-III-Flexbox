@@ -75,15 +75,16 @@ header {
 }
 
 nav {
-	display: inline-block;
-	width: 660px;
+	display: flex;
+	width: 600px;
 	margin-top: 40px;
 	vertical-align: top;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 header a {
-	display: inline-block;
-	width: 16.2%;
+	/* width: 16.2%; */
 	color: lightgray;
 	text-decoration: none;
 }
@@ -125,10 +126,13 @@ p {
 	text-align: left;
 }
 
+.top-bar {
+	display: flex;
+	justify-content: space-between;
+}
+
 .logo {
-	  display: inline-block;
-		text-align: right;
-		width: 24.5%;
+
 }
 
 .header-img {

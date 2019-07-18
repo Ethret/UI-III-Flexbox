@@ -198,7 +198,6 @@ h6 {
 	flex-basis: 47%;
 	border: 1px solid black;
 	padding: 25px;
-	/* padding-right: 30px; */
 	margin-right: 20px;
 	margin-bottom: 32px;
 	background-color: #F3F3F3;
@@ -220,7 +219,7 @@ h6 {
 .services .thicc-border {
 	width: 98%;
 	border: 1px solid black;
-	margin-bottom: 30px;
+	margin: 30px 0;
 }
 
 .services .subfoot {
